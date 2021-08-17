@@ -1,0 +1,15 @@
+public class Employee{
+     static int i;
+     String name[] ={"Robert","Sam","Jhon"};
+     int year[] = {1994,2000,1999};
+     String address[] = {"64C-WallsStreet","68D-WallsStreet","26B-WallsStreet"};
+     public static void main(String[] args){
+      Employee obj = new Employee();
+       for(i=0;i<3;i++){
+       System.out.println("Name: "+obj.name[i]);
+       System.out.println("Year of joining: "+obj.year[i]);
+       System.out.println("Address: "+obj.address[i]);
+       System.out.println();
+       } 
+     }
+}
